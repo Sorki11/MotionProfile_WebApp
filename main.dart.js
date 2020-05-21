@@ -15498,144 +15498,132 @@ XD:function XD(a){this.a=a},
 Xi:function Xi(a){this.a=a},
 XE:function XE(a,b){this.a=a
 this.b=b},
-a93:function(b2){var t,s,r,q,p,o,n,m,l,k,j,i,h,g,f,e,d,c,b,a,a0,a1,a2,a3,a4,a5,a6,a7="Distance",a8="Velocity",a9="Acceleration",b0=b2.d,b1=(b0.b*2+b0.c)/4068
-b0=u.if
-t=H.a([],b0)
-s=H.a([],b0)
-r=H.a([],b0)
-for(q=0;b0=b1*q,p=b2.d,b0<p.b;){p=p.e
-o=Math.pow(b0,3)
-n=b2.d.e
-m=Math.pow(b0,2)
-l=b2.d.e
-t.push(new Q.bL(b0,p*o/6))
-s.push(new Q.bL(b0,n*m/2))
-r.push(new Q.bL(b0,l*b0));++q}for(;b0=b1*q,p=b2.d,o=p.b,b0<o+p.c;){k=b0-o
+a93:function(b4){var t,s,r,q,p,o,n,m,l,k,j,i,h,g,f,e,d,c,b,a,a0,a1,a2,a3,a4,a5,a6,a7,a8,a9="Distance",b0="Velocity",b1="Acceleration",b2=b4.d,b3=(b2.b*2+b2.c)/4068
+b2=u.if
+t=H.a([],b2)
+s=H.a([],b2)
+r=H.a([],b2)
+for(q=0;b2=b3*q,p=b4.d,b2<p.b;){p=p.e
+o=Math.pow(b2,3)
+n=b4.d.e
+m=Math.pow(b2,2)
+l=b4.d.e
+t.push(new Q.bL(b2,p*o/6))
+s.push(new Q.bL(b2,n*m/2))
+r.push(new Q.bL(b2,l*b2));++q}for(;b2=b3*q,p=b4.d,o=p.b,b2<o+p.c;){k=b2-o
 p=p.e
 o=Math.pow(o,3)
-n=b2.d
+n=b4.d
 m=n.e
 n=n.b
 H.k(n)
 n=Math.pow(n,2)
-l=b2.d.d
+l=b4.d.d
 j=Math.pow(k,2)
-i=b2.d
+i=b4.d
 h=i.e
 i=i.b
 H.k(i)
 i=Math.pow(i,2)
-g=b2.d
+g=b4.d
 f=g.d
 e=g.e
 g=g.b
-t.push(new Q.bL(b0,p*o/6+m*n/2*k+l*j/2))
-s.push(new Q.bL(b0,h*i/2+f*k))
-r.push(new Q.bL(b0,e*g));++q}for(;b0=b1*q,p=b2.d,o=p.b,n=p.c,b0<o*2+n;){k=b0-o-n
+t.push(new Q.bL(b2,p*o/6+m*n/2*k+l*j/2))
+s.push(new Q.bL(b2,h*i/2+f*k))
+r.push(new Q.bL(b2,e*g));++q}for(;b2=b3*q,p=b4.d,o=p.b,n=p.c,b2<o*2+n;){k=b2-o-n
 p=p.e
 o=Math.pow(o,3)
-n=b2.d
+n=b4.d
 m=n.e
 n=n.b
 H.k(n)
 n=Math.pow(n,2)
-l=b2.d
+l=b4.d
 j=l.c
 l=l.d
 i=Math.pow(j,2)
-h=b2.d
+h=b4.d
 g=h.e
 h=h.b
 H.k(h)
 h=Math.pow(h,2)
-f=b2.d
+f=b4.d
 e=f.d
 f=f.c
 d=Math.pow(k,2)
-c=b2.d.e
+c=b4.d.e
 b=Math.pow(k,3)
-a=b2.d
+a=b4.d
 a0=a.e
 a=a.b
 H.k(a)
 a=Math.pow(a,2)
-a1=b2.d
+a1=b4.d
 a2=a1.d
 a3=a1.c
 a1=a1.e
 a4=Math.pow(k,2)
-a5=b2.d
+a5=b4.d
 a6=a5.d
 a5=a5.e
-t.push(new Q.bL(b0,p*o/6+m*n/2*j+l*i/2+(g*h/2+e*f)*k+e*d/2-c*b/6))
-s.push(new Q.bL(b0,a0*a/2+a2*a3+a2*k-a1*a4/2))
-r.push(new Q.bL(b0,a6-a5*k));++q}b2.e.a
-for(q=4068;b0=b1*q,p=b2.e,o=p.b,n=p.c,b0>o+n;){k=b0-o-n
-n=b2.b
+t.push(new Q.bL(b2,p*o/6+m*n/2*j+l*i/2+(g*h/2+e*f)*k+e*d/2-c*b/6))
+s.push(new Q.bL(b2,a0*a/2+a2*a3+a2*k-a1*a4/2))
+r.push(new Q.bL(b2,a6-a5*k));++q}b2=b4.b
+p=b4.e
+a7=b2-p.a
+b3=(p.b*2+p.c)/4068
+for(q=4068;b2=b3*q,p=b4.e,o=p.b,n=p.c,b2>o+n;){k=b2-o-n
+n=b4.b
 p=p.e
 o=Math.pow(o,3)
-m=b2.e
+m=b4.e
 l=m.e
 m=m.b
 H.k(m)
 m=Math.pow(m,2)
-j=b2.e
+j=b4.e
 i=j.c
 j=j.d
 h=Math.pow(i,2)
-g=b2.e
+g=b4.e
 f=g.e
 g=g.b
 H.k(g)
 g=Math.pow(g,2)
-e=b2.e
+e=b4.e
 d=e.d
-e=e.c
-c=Math.pow(k,2)
-b=b2.e.e
-a=Math.pow(k,3)
-a0=b2.c
-a1=b2.e.e
-a2=4068-q
-a3=Math.pow(b1*a2,2)
-a4=b2.e.e
-t.push(new Q.bL(b2.a-b0,n-(p*o/6+l*m/2*i+j*h/2+(f*g/2+d*e)*k+d*c/2-b*a/6)))
-s.push(new Q.bL(b2.a-b0,a0-a1*a3/2))
-r.push(new Q.bL(b2.a-b0,a4*b1*a2*-1));--q}for(;b0=b1*q,p=b2.e,o=p.b,b0>o;){k=b0-b2.d.b
-n=b2.b
+a7=n-(p*o/6+l*m/2*i+j*h/2+(f*g/2+d*e.c)*k+d*Math.pow(k,2)/2-b4.e.e*Math.pow(k,3)/6)
+d=b4.c
+e=b4.e.e
+g=4068-q
+f=Math.pow(b3*g,2)
+h=b4.e.e
+t.push(new Q.bL(b4.a-b2,a7))
+s.push(new Q.bL(b4.a-b2,d-e*f/2))
+r.push(new Q.bL(b4.a-b2,h*b3*g*-1));--q}for(;b2=b3*q,p=b4.e,o=p.b,b2>o;){b4.d.b
+n=b4.c
 p=p.e
-o=Math.pow(o,3)
-m=b2.e
-l=m.e
-m=m.b
-H.k(m)
-m=Math.pow(m,2)
-j=b2.e.d
-i=Math.pow(k,2)
-h=b2.c
-g=b2.d
-f=g.e
-g=g.b
-H.k(g)
-g=Math.pow(g,2)
-e=b2.d
-d=e.d
-c=b2.e.b
-b=e.e
-e=e.b
-t.push(new Q.bL(b2.a-b0,n-(p*o/6+l*m/2*k+j*i/2)))
-s.push(new Q.bL(b2.a-b0,h-(f*g/2+d*(b1*(4068-q)-c))))
-r.push(new Q.bL(b2.a-b0,b*e*-1));--q}for(;b0=b1*q,b0>0;){p=b2.b
-o=b2.e.e
-n=Math.pow(b0,3)
-m=b2.e.e
-l=Math.pow(b0,2)
-j=b2.e.e
-t.push(new Q.bL(b2.a-b0,p-o*n/6))
-s.push(new Q.bL(b2.a-b0,m*l/2))
-r.push(new Q.bL(b2.a-b0,j*b0*-1));--q}b0=u.oH
+o=Math.pow(o,2)
+m=b4.e
+l=m.d
+j=m.b
+a8=n-(p*o/2+l*(b3*(4068-q)-j))
+a7+=a8*b3
+m=m.e
+t.push(new Q.bL(b4.a-b2,a7))
+s.push(new Q.bL(b4.a-b2,a8))
+r.push(new Q.bL(b4.a-b2,m*j*-1));--q}for(;b2=b3*q,b2>0;){p=b4.b
+o=b4.e.e
+n=Math.pow(b2,3)
+m=b4.e.e
+l=Math.pow(b2,2)
+j=b4.e.e
+t.push(new Q.bL(b4.a-b2,p-o*n/6))
+s.push(new Q.bL(b4.a-b2,m*l/2))
+r.push(new Q.bL(b4.a-b2,j*b2*-1));--q}b2=u.oH
 p=u.i
-return H.a([F.a1d(new Q.Kf(),t,a7,new Q.Kg(),a7,new Q.Kh(),b0,p),F.a1d(new Q.Ki(),s,a8,new Q.Kj(),a8,new Q.Kk(),b0,p),F.a1d(new Q.Kl(),r,a9,new Q.Km(),a9,new Q.Kn(),b0,p)],u.oF)},
+return H.a([F.a1d(new Q.Kf(),t,a9,new Q.Kg(),a9,new Q.Kh(),b2,p),F.a1d(new Q.Ki(),s,b0,new Q.Kj(),b0,new Q.Kk(),b2,p),F.a1d(new Q.Kl(),r,b1,new Q.Km(),b1,new Q.Kn(),b2,p)],u.oF)},
 xt:function xt(a,b,c){this.c=a
 this.d=b
 this.a=c},
